@@ -1,0 +1,6 @@
+{
+  "name": "Huegifts",
+  "description": "Website thương mại điện tử chuyên bán quà lưu niệm Huế và truyền tải những câu chuyện văn hóa cố đô mộc mạc, ý nghĩa dưới thương hiệu Huegifts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

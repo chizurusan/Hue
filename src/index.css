@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-bg-cream: #F7F2EA;
+  --color-brand-purple: #6E4B67;
+  --color-brand-purple-light: #F0EBF0;
+  --color-brand-gold: #B88A55;
+  --color-brand-gold-light: #F7F1E6;
+  --color-brand-green: #526452;
+  --color-text-charcoal: #302A27;
+  --color-text-muted: #6B625C;
+
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+/* Custom general resets with Hue styling */
+body {
+  background-color: #F7F2EA; /* Default to ngà kem */
+  color: #302A27; /* Default to xám than */
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F0EAE0;
+}
+::-webkit-scrollbar-thumb {
+  background: #C4B9AA;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6E4B67;
+}
+
+/* CSS Editorials blockquotes */
+.quote-decorative {
+  position: relative;
+  font-family: var(--font-serif);
+  font-style: italic;
+  padding-left: 2rem;
+  border-left: 3px solid #B88A55;
+}
+
+/* Soft transition class */
+.transition-smooth {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
